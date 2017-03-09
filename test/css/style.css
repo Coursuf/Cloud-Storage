@@ -1,0 +1,48 @@
+body {
+  background-image: url(../img/index.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  font-family: tahoma;
+}
+
+h2 {
+  font-size: 3em;
+  color: #86C6E8;
+  margin-top: 5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.buton {
+  text-align: center;
+  position: relative;;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 10px 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.click {
+  color: #C4E5F6;
+  background: #464668;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.click:hover {
+  color: #464668;
+  background: #C4E5F6;
+  -webkit-transition: all 0.5s ease;
+}
+
+.cpr {
+    position: fixed;
+    left: 0; bottom: 0;
+    color: #fff;
+    width: 100%;
+   }
